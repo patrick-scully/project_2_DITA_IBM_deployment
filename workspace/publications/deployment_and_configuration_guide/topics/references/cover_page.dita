@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="cover_page">
+    <title>Cover Page</title>
+    <shortdesc>This table lists the general information about he techniques used for linking and conditional processing and other objectives of the project. </shortdesc>
+    <refbody> 
+        <table>
+            <tgroup cols="2">
+                <thead>
+                    <row rowsep="1">
+                        <entry colsep="1">Tasks</entry>
+                        <entry colsep="1">Details</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row rowsep="1">
+                        <entry colsep="1">Information Types and elements</entry>
+                        <entry colsep="1">I have used a range of DITA information types in this project. I also include codeblocks, notes, tables and hazzardstatements.</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Hierarchial links</entry>
+                        <entry colsep="1">Map and reltables</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Cross references</entry>
+                        <entry colsep="1">xref, conref, conkeyref</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Links to DITA and non-DITA resources</entry>
+                        <entry colsep="1">HTML web links and PDF</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Glossary</entry>
+                        <entry colsep="1">I have created a Glossary with the required terms alphabetically</entry>
+                    </row>
+                    
+                    <row rowsep="1">
+                        <entry colsep="1">Index</entry>
+                        <entry colsep="1">I have created an index withg more than 20 terms. 6 terms have been nested and 5 more have synonymous index terms. The Index has been created using conkeyref.</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Conditional Processing</entry>
+                        <entry colsep="1">I have created a conditional processing file eg</entry>
+                    </row>
+                    <row rowsep="1">
+                        <entry colsep="1">Metadata</entry>
+                        <entry colsep="1">Metadata has been used throughout, eg</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+    
+</reference>

@@ -5,7 +5,8 @@
     <shortdesc>Using the IBM License Metric Tool, you can generate license consumption reports that count IBM
         StoredIQ license usage</shortdesc>
     <refbody>
-        <unknown>
+        <section>
+           
            <p>On the IBM StoredIQ application stack, a license program writes usage information to an IBM Software
             Licence Metric Tag (SLMT) file. This file has the extension .slmtag and can be read periodically by the IBM
             License Metric Tool (ILMT) after it has been con³gured to scan for these files. You can generate reports
@@ -33,9 +34,9 @@
                      &lt;/Period&gt;
                 &lt;/Metric&gt;
             </codeblock>
-            
-        <refbody>
-            <unknown>
+            </section>
+      
+            <section>
                 <p><b>Integration with IBM License Metric Tool</b> </p>
                 
            <p> Versions of IBM License Metric Tool (ILMT) that support IBM Software License Metric Tag (SLMT) can
@@ -46,10 +47,10 @@
             StoredIQ. On the application stack, you can ³nd the license information in the License directory.</p>
                 <p>For more information about using IBM License Metric Tool, see the <xref href="https://www.ibm.com/support/knowledgecenter/SS8JFY_9.2.0/com.ibm.lmt.doc/welcome/LMT_welcome.html" format="html" scope="external">IBM License Metric Tool
                     documentation.</xref></p>
-            </unknown>
-        </refbody>
+            </section>
+        
             
-        </unknown>
+       
         
     </refbody>
 </reference>

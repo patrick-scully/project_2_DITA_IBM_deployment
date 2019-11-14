@@ -8,7 +8,7 @@
        
         
         <section>
-           <title id="test">IBM StoredIQ_administration</title>
+           <title>IBM StoredIQ_administration</title>
             <image id="IBM_StoredIQ_administration" href="../../resources/images/IBM_StoredIQ_Administrator.jpg" width="760"  format="jpg" ></image>
         </section>
         
@@ -16,14 +16,17 @@
             <title>IBM_StoredIQ_Data_Server</title>
             <image id="IBM_StoredIQ_Data_Server" href="../../resources/images/IBM_StoredIQ_Data_Server.jpg"  width="760"  format="jpg"></image>
         </section>
+        
         <section>
             <title>IBM_StoredIQ_Data_Workbench</title>
             <image id="IBM_StoredIQ_Data_Workbench" href="../../resources/images/IBM_StoredIQ_Data_Workbench.jpg"  width="760"  format="jpg"></image>
         </section>
+       
         <section>
             <title>IBM_StoredIQ_Insights</title>
             <image id="IBM_StoredIQ_Insights" href="../../resources/images/IBM_StoredIQ_Insights.jpg"  width="760"  format="jpg"></image>
         </section>
+       
         <section>
             <title>IBM_StoredIQ_Policy_Manager</title>
             <image id="IBM_StoredIQ_Policy_Manager" href="../../resources/images/IBM_StoredIQ_Policy_Manager.jpg" width="760"  format="jpg" ></image>
