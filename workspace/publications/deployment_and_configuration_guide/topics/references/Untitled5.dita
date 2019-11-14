@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="open_virtual_appliance_OVA_configuration_requirements">
+    <title>Open Virtual Appliance (OVA) configuration requirements</title>
+    <shortdesc>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all ³x pack levels) or
+        VMware ESXi 6.0 (all ³x pack levels) environments. You must have a virtual infrastructure that meets the
+        IBM StoredIQ hardware requirements.</shortdesc>
+    
+    <refbody> 
+        
+    
+        
+        <unknown><b>Application stack</b>
+           <ul>
+               <li>vCPU: 2</li>
+               <li>Memory: 4 GB</li>
+               <li>Storage:
+                   <sl>
+                       <sli> - Primary disk (vmdisk1): 21 GB</sli>
+                       <sli> - Data disk (vmdisk2): 10 GB</sli>
+                   </sl>
+          </li>
+           </ul>
+        </unknown>
+        <unknown>
+            <b>Gateway server</b>
+            <ul>
+                <li>vCPU: 4</li>
+                <li>Memory: 8 GB</li>
+                <li>Storage:
+                
+                    <sl>
+                        <sli> - Primary disk (vmdisk1): 100 GB</sli>
+                        <sli> - Data disk (vmdisk2): 75 GB</sli>
+                        <sli> - Swap disk (vmdisk3): 40 - 100 GB
+                        </sli>
+                    </sl>
+                </li>
+                
+            </ul>
+        </unknown>
+        <unknown>
+            <b>DataServer - Classic</b>
+            <ul>
+                <li>vCPU: 4
+                    Even though increasing the number of vCPUs increases performance, the actual bene³ts depend on
+                    whether the speci³c host is oversubscribed or not.</li>
+                <li>Memory: 16 GB
+                    While the minimum value works under light-load condition, as the load increases, the data server
+                    quickly starts using swap space. For high load situations, increasing RAM beyond 16 GB can bene³t
+                    performance. Monitoring swap usage can provide insight.</li>
+                <li>Storage:
+                    <ul>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                    
+                    
+                    <sl>
+                        <sli> - Primary disk (vmdisk1, SCSI 0:0): Default is 150 GB
+                            This virtual disk has an associated VMDK that contains the IBM StoredIQ operating code. Do not
+                            change its size.
+                            
+                           
+                        
+                        </sli>
+                        
+                        
+                        <sli> - Data disk (vmdisk2, SCSI 0:1): Default is 2 TB
+                            This virtual disk can be resized according to expectations on the amount of harvest data to be
+                            stored. For purposes of estimation, the index storage requirement for metadata is about 30 GB
+                            per TB of managed source data. Full-text indexing requires an extra 170 GB per TB. Therefore,
+                            the default data disk size is targeted for managing 10 TB of source information.</sli>
+                        <sli> - Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB
+                            When under load, the data server can use much RAM; therefore, having ample swap space is
+                            prudent. The minimum swap size is equal to the amount of RAM con³gured for the virtual
+                            machine. For best performance under load, place this disk on the highest speed data store
+                            available to the host.
+                        </sli>
+                    </sl>
+                </li>
+                
+            </ul>
+        </unknown>
+    </refbody>
+</reference>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="IBM_StoredIQ_components">
+   
+        <title>IBM StoredIQ components
+    </title>
+    <shortdesc>The IBM StoredIQ solution consists of these components: the application stack, the gateway, the data
+        server, and optionally the Elasticsearch cluster.
+    </shortdesc>
+    <prolog>
+        <metadata>
+            <!-- create a folder call them map files -->
+            <!-- in example he used conkeyref at the keywords level -->
+            <keywords><!-- all under this belongs to this logic -->
+                <indexterm conkeyref="Index/StoredIQ"></indexterm>
+                <indexterm conkeyref="Index/bandwidth">
+                    <!-- nested index term here -->
+                    <indexterm></indexterm>
+                </indexterm>
+               
+                    
+            </keywords>
+            <keywords>
+                <indexterm conkeyref="Index/interrogator"></indexterm>
+               
+                
+                
+            </keywords>
+        </metadata>
+    </prolog>
+</concept>

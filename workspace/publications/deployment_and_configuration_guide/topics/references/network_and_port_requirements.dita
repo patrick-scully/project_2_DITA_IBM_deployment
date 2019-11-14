@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="network_and_port_requirements">
+    <title>Network and port requirements</title>
+    <shortdesc>For proper communication, the IBM StoredIQ components must be able to connect to each other.</shortdesc>
+    <refbody> 
+    <section>
+                <p>You must enable network connectivity from the following locations:
+                    <ul>
+                        <li>The data server IP address to the gateway IP address on port 11103
+                        </li>
+                        <li>The gateway IP address to and from the application stack IP address on port 8765 and 5432</li>
+                        <li>Ports 80, 443, and 22 from the administrative workstation to the application stack and data server IP
+                            addresses</li>
+                        <li>Port 22 from the administrative workstation to the gateway IP address</li>
+                    </ul>
+                </p>
+        
+    </section>
+        <section>
+            <title>TCP: port ranges for the firewall</title>
+            <p>To ensure the network access for desktop volumes, the following port ranges must be open through a
+                firewall
+            <ul>
+                <li>21000-21004
+                </li>
+                <li>21100-21101</li>
+                <li>21110-21130</li>
+                <li>21200-21204</li>
+            </ul>
+            </p>
+        </section>
+        <section>
+            <title>Default open ports</title>
+            <p>The following ports are open by default on the IBM StoredIQ.
+                
+                <!--SSH port 22
+By default, port 22 is open on all IBM StoredIQ hosts. The port is used for Secure Shell (SSH)
+communication and allows remote administration access to the VM. In general, traffic is encrypted using
+password authentication. To add a layer of security, you can establish key-based authentication for
+passwordless SSH logins to any of the IBM StoredIQ nodes in your environment as described in
+“#on³guring SSH key-based authentication” on page 45.
+  -->
+           <table>
+               <title>Default open ports on the AppStack</title>
+               <tgroup cols="2">
+                   <thead>
+                       <row rowsep="1">
+                           <entry colsep="1">Port number</entry>
+                           <entry colsep="1">Protocol
+                           </entry>
+                       </row>
+                   </thead>
+                   <tbody>
+                       <row rowsep="1">
+                           <entry colsep="1">22</entry>
+                           <entry colsep="1">tcp</entry>
+                       </row>
+                       <row rowsep="1">
+                           <entry colsep="1">80</entry>
+                           <entry colsep="1">tcp</entry>
+                       </row>
+                       <row rowsep="1">
+                           <entry colsep="1">443</entry>
+                           <entry colsep="1">tcp</entry>
+                       </row>
+                   </tbody>
+               </tgroup>
+           </table>
+            
+                <table>
+                    <title>Default open ports on the IBM StoredIQ data server</title>
+                    <tgroup cols="3">
+                             <colspec colname="c1"></colspec>
+                            <colspec colname="c2"></colspec>
+                            <colspec colname="c3"></colspec>
+                        <thead>
+                            <row rowsep="1">
+                                <entry colsep="1">Port number</entry>
+                                <entry colsep="1">Protocol
+                                </entry>
+                                <entry colsep="1">Service
+                                </entry>
+                            </row>
+                        </thead>
+                        <tbody>
+                            <row rowsep="1">
+                                <entry colsep="1">22</entry>
+                                <entry colsep="1">tcp</entry>
+                                <entry colsep="1">PROD-ssh</entry>
+                            </row>
+                            <row rowsep="1">
+                                <entry colsep="1">80</entry>
+                                <entry colsep="1">tcp</entry>
+                                <entry colsep="1">PROD-web</entry>
+                            </row>
+                            <row rowsep="1">
+                                <entry colsep="1">443</entry>
+                                <entry colsep="1">tcp</entry>
+                                <entry colsep="1">PROD-https (UI and Web
+                                    Services APIs)
+                                </entry>
+                            </row>
+                            <row rowsep="1" >
+                                <entry colsep="1">11103</entry>
+                                <entry colsep="1" morerows="1">tcp</entry>
+                                <entry colsep="1" morerows="1">PROD-transport (IBM StoredIQ
+                                    transport services;
+                                    communication between the
+                                    gateway and the data server)
+                                </entry>
+                               
+                       
+                            </row>
+                            <row rowsep="1">
+                                <entry colsep="1">11104</entry>
+                            </row>
+                        </tbody>
+                    </tgroup>
+                </table>
+                
+            
+            </p>
+        </section>
+    </refbody>
+</reference>
