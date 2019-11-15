@@ -104,10 +104,10 @@
                 <li><b>Managing Mule scripts:</b> Helps you to create Mule scripts and upload script
                     packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
                     policies using the automation workflow.</li>
-                <li><b> DataServer - Classic:</b> Data servers can be categorized in two types:
+                <li><p id="DataServer_Classic:"><b> DataServer - Classic:</b> Data servers can be categorized in two types:
                     DataServer - Classic and DataServer - Distributed. DataServer - Classic refers
                     to the regular data servers. It uses either the current PostgreSQL or Lucene
-                    index as an index. </li>
+                    index as an index.</p> </li>
                 <li><b>DataServer - Distributed:</b> The distributed data server uses an
                     Elasticsearch cluster instead of an embedded Postgres database. It increases the
                     scalability and flexibility of the IBM StoredIQ deployment in a way that it can
