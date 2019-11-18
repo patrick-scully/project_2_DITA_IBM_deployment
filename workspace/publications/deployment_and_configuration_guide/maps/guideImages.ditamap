@@ -2,6 +2,4 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title></title>
-    <keydef href="topics/references/image_usage.dita" keys="images"/>
-    <keydef href="topics/references/index.dita" keys="Index"/>
 </map>

@@ -62,7 +62,7 @@
                 <tgroup cols="1">
                     <tbody>
                         <row rowsep="1">
-                            <entry colsep="1"><p><b>Notice</b></p><p>Before using this information and the product it supports, read the information in Notices</p></entry>
+                            <entry colsep="1"><p><b>Notice</b></p><p>Before using this information and the product it supports, read the information in <xref href="../../resources/pdfs/IBMSIQDeploymentConfigGuide76019_1.pdf" format="pdf" scope="local">Notices</xref>.</p></entry>
                         </row>
                     </tbody>
                 </tgroup>

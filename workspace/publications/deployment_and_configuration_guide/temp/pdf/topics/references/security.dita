@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\patscully\Dropbox\Current Working Clients\Information Designs & Development\project_2_ps\workspace\publications\deployment_and_configuration_guide\temp\pdf\topics\references?><?workdir-uri file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/temp/pdf/topics/references/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="security" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="reference:1;3:26">
+    <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:1;4:12">Security</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="shortdesc:1;5:16">Plan and implement speci³c security measures to protect the application and the data it manages,
+        especially when you deploy IBM StoredIQ into sensitive environments. </shortdesc>
+    
+    <refbody class="- topic/body        reference/refbody " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="refbody:1;8:14"> 
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:1;9:18">
+                        <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:1;10:28">IBM StoredIQ keeps your data secure through encryption, security hardening, and auditing.</p>
+        </section>
+        
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:2;13:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:2;14:20">Federal Information Processing Standard (FIPS)</title>
+                   
+           
+                <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:2;17:20"> FIPS is a standard recommended by the National Institute of Standards and Technology (NIST) and the
+            US Federal Government. It ensures certain security standards are met for software or hardware
+            components deployed at US government sites. Enabling FIPS ensures that the SSL/TLS engine that is
+            compliant with the US Government recommendation is used. IBM StoredIQ supports FIPS Level 1.</p>
+                    <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:3;21:24">Secure gateway communication can be enabled without FIPS. If FIPS is enabled, IBM StoredIQ uses FIPS
+                        compliant versions of OpenSSL.</p>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:3;24:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:3;25:20">Secure communication and encryption of data in motion</title>
+           
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:4;27:16">In a production environment, you should con³gure or install certificates on the AppStack to enable HTTPS
+            communication and to enable encryption of data in motion between the browser and the AppStack. You
+            can to this during installation and initial configuration or at any time afterward. For details, see the
+            instructions for configuring certificates.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:5;31:16">The gateway handles the communication between the data servers and the application stack. By default,
+            the communication between the gateway, any data servers, and the AppStack is in plain text and is not
+            encrypted. If your enterprise security policy mandates encryption of data in motion, enable secure
+            gateway communication. In this case, secure gateway communication must be con³gured on all three
+            p&gt; IBM StoredIQ components. You can enable secure gateway communication during installation and initial
+            configurtion or at any time afterward. For details, see “Managing the status of secure gateway
+            communication” on page 54.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:6;38:16">IBM StoredIQ then uses stunnel to ensure secure communication between the components. If your
+            environment includes data servers of the type DataServer - Distributed, stunnel can also be used to
+            encrypt the communication between the nodes within the Elasticsearch cluster but not for encrypting the
+            communication between the data server and the Elasticsearch cluster.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:7;42:16">To secure the communication between the data server and the Elasticsearch cluster and the
+            communication within the Elasticsearch cluster likewise, you can enable Search Guard. For more
+            information, see “Securing Elasticsearch cluster communication with Search Guard” on page 51. If you
+            don't want to do that but still want to restrict client access to port 9200 on the Elasticsearch nodes, you
+            can set up the firewall accordingly. For more information, see “Restricting access to port 9200 on
+            Elasticsearch nodes” on page 52.</p>
+           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:8;48:15"> If FIPS is not enabled, the following cipher suites and encryption algorithm are used for data at rest:</p>
+           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:9;49:15">
+               
+               <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="codeph:1;51:24">
+                         TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+            </codeph> 
+               
+           </p>
+          <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:10;56:14">
+            <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="codeph:2;57:21">
+                     TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+            </codeph>
+          </p>
+            
+            
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:11;63:16">You can configure these cipher suites in the configurtion files listed in the list of key and certificate files.
+            However, if you run the utilities for enabling stunnel, you might need to make the respective configuration
+            changes again.</p>
+        </section>
+        
+   <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:4;68:13">
+       <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:4;69:15">Encryption of data at rest</title>
+       <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:12;70:11">Starting with IBM StoredIQ version 7.6.0.15, the disk volume on which the Elasticsearch indexes are
+           stored is encrypted by default. IBM StoredIQ uses Linux Unified Key Setup (LUKS) for disk encryption. For
+           details about key management, see “Key and certificate management” on page 41.
+       </p>
+       <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:13;74:11">Optionally, you can encrypt the application data on the IBM StoredIQ application stack. For more
+           information, see “Enabling encryption of IBM StoredIQ AppStack application data” on page 50.</p>
+   </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:5;77:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:5;78:20">Network isolation</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:14;79:16">If full-text harvesting and Step-up Analytics actions (cartridges) are applied, Elasticsearch indexes can
+                contain potentially sensitive content. Therefore, you should deploy the Elasticsearch nodes in an isolated
+                location on the network (for example, as an enclave or behind a firewall) that is properly secured
+                according to the sensitivity of the data being harvested. Only the IBM StoredIQ application stack and data
+                servers should be allowed to communicate with the Elasticsearch nodes.</p>
+               <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:15;84:19">Also, any data servers and the gateway should be deployed in an isolated network location to allow for
+                communication with authorized clients only.</p>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:6;87:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:6;88:20">Access control</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:16;89:16">The following administrative accounts are required. The builder and siqadmin accounts are IBM
+                StoredIQIspeci³c accounts. For more information about these accounts, see “Default user accounts” on
+                page 17.
+                <parml class="+ topic/dl pr-d/parml " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="parml:1;92:24">
+                    <plentry class="+ topic/dlentry pr-d/plentry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="plentry:1;93:30">
+                        <pt class="+ topic/dt pr-d/pt " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="pt:1;94:29">root and builder accounts on the Elasticsearch cluster nodes</pt>
+                        <pd class="+ topic/dd pr-d/pd " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="pd:1;95:29">Remote login for root can be disabled. However, local root login is required, either log in as root or
+                            use the <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:1;96:40">su</b> command to obtain root permissions temporarily.
+                           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:17;97:31"> You set the passwords for the root and builder accounts during the configuration process when
+                               you start the VM for the first time. You can change these passwords anytime.</p></pd>
+                    </plentry>
+                </parml>
+                
+                <parml class="+ topic/dl pr-d/parml " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="parml:2;102:24">
+                    <plentry class="+ topic/dlentry pr-d/plentry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="plentry:2;103:30">
+                        <pt class="+ topic/dt pr-d/pt " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="pt:2;104:29">siqadmin account on the AppStack</pt>
+                        <pd class="+ topic/dd pr-d/pd " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="pd:2;105:29">Administration of the AppStack usually does not require direct root access. For day-to-day
+                            administration, the siqadmin account can be used.
+                            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:18;107:32">You set the password for the siqadmin account during the configuration process when you start the
+                                VM for the first time. You can change this password anytime.</p></pd>
+                    </plentry>
+                </parml>
+            </p>
+           
+            
+            
+           
+            
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="section:7;118:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="title:7;119:20">Default user accounts</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:19;120:16">IBM StoredIQ comes with a set of default user accounts.</p>
+              <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:20;121:18">  For security reasons, change the passwords for these default accounts after the installation is complete
+                so that they are unique and different from the default values. The new password must be 8 to 64
+                characters long and must contain characters from at least three of these categories:
+                <ul class="- topic/ul " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="ul:1;124:21">
+                    <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="li:1;125:25">Uppercase letters: A - Z
+                    </li>
+                    <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="li:2;127:25">Lowercase letters: a - z
+                    </li>
+                    <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="li:3;129:25">Digits: 0 - 9</li>
+                    <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="li:4;130:25"> Punctuation marks or special characters: . : = * ˆ / $ # _ + @ &amp; % -</li>
+                    
+                </ul>
+              </p>
+        </section>
+        
+        <table class="- topic/table " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="table:1;136:16">
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="tgroup:1;137:30">
+                <colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><colspec class="- topic/colspec " colnum="3" colname="col3"/><thead class="- topic/thead " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="thead:1;138:24">
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:1;139:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:1;140:43" colname="col1" dita-ot:x="1" dita-ot:y="1">Account</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:2;141:43" colname="col2" dita-ot:x="2" dita-ot:y="1">Default password </entry>
+                       
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:3;143:43" colname="col3" dita-ot:x="3" dita-ot:y="1">Description </entry>
+                        
+                    </row>
+                </thead>
+                <tbody class="- topic/tbody " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="tbody:1;147:24">
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:2;148:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:4;149:43" colname="col1" dita-ot:x="1" dita-ot:y="2">admin</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:5;150:43" colname="col2" dita-ot:x="2" dita-ot:y="2">admin</entry>
+                            <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:6;151:47" colname="col3" dita-ot:x="3" dita-ot:y="2">Administrative account for accessing
+                            IBM StoredIQ Data Server. Use this
+                            account for the initial setup of the data
+                            server and to create further
+                            administrative accounts for routine
+                            administration.
+                            Change the password in IBM StoredIQ
+                            Data Server under <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:2;158:50">Administration &gt;
+                                Configuration &gt; Manage users.</b>
+                        </entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:3;162:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:7;163:43" colname="col1" dita-ot:x="1" dita-ot:y="3">audituser </entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:8;164:43" colname="col2" dita-ot:x="2" dita-ot:y="3">Passw0rd! </entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:9;165:43" colname="col3" dita-ot:x="3" dita-ot:y="3"><p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:21;165:46">Account for accessing the audit
+                            database on the AppStack.</p>
+                            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:22;167:32">Change the password by running the
+                                <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:3;168:36">change_audituser_password</b> script as
+                                siqadmin user on the AppStack.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:4;171:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:10;172:43" colname="col1" dita-ot:x="1" dita-ot:y="4">builder</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:11;173:43" colname="col2" dita-ot:x="2" dita-ot:y="4">None. Password is set during initial
+                            configuration</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:12;175:43" colname="col3" dita-ot:x="3" dita-ot:y="4">Account for setting up and con³guring
+                            the Elasticsearch cluster.
+                           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:23;177:31"> You can change the password by using
+                               the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:4;178:45">passwd</b> command.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:5;180:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:13;181:43" colname="col1" dita-ot:x="1" dita-ot:y="5">reportuser </entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:14;182:43" colname="col2" dita-ot:x="2" dita-ot:y="5">St0red1q</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:15;183:43" colname="col3" dita-ot:x="3" dita-ot:y="5">Account for accessing the report
+                            database on the AppStack.
+                            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:24;185:32">Change the password by running the
+                            change_reportuser_password script as
+                            siqadmin user on the AppStack.</p>
+                        </entry>
+                                      
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:6;191:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:16;192:43" colname="col1" dita-ot:x="1" dita-ot:y="6">siqadmin</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:17;193:43" colname="col2" dita-ot:x="2" dita-ot:y="6">Passw0rd!</entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:18;194:43" colname="col3" dita-ot:x="3" dita-ot:y="6">Administrative account for managing the
+                            AppStack server. For more information,
+                            see the administration guide.
+                            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:25;197:32">With new installations, you are
+                            prompted for a new password during the
+                            initial configuration of the AppStack. In
+                            updated deployments, change the
+                            password by using the Linux <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:5;201:60">passwd</b>
+                            command.</p></entry>
+                    </row>
+                    <row rowsep="1" class="- topic/row " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="row:7;204:37">
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:19;205:43" colname="col1" dita-ot:x="1" dita-ot:y="7">superadmin </entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:20;206:43" colname="col2" dita-ot:x="2" dita-ot:y="7">admin </entry>
+                        <entry colsep="1" class="- topic/entry " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="entry:21;207:43" colname="col3" dita-ot:x="3" dita-ot:y="7">Administrative account for accessing
+                            IBM StoredIQ Administrator and IBM
+                            StoredIQ Data Server. Use this account
+                            for the initial setup of IBM StoredIQ and
+                            to create further administrative
+                            accounts for routine administration so
+                            that their actions can be audited.
+                           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:26;214:31"> Change the password in IBM StoredIQ
+                               Administrator: go to<b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="b:6;215:55"> Users</b> and edit the
+                            superadmin account.</p>
+                           <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/security.dita" xtrc="p:27;217:31"> The superadmin account has access to
+                            all IBM StoredIQ applications on the
+                            application stack. To switch
+                            applications, click the triangle arrow
+                            icon and select the application that you
+                            want to access from the list of the
+                            available applications.</p></entry>
+                    </row>
+                    
+                </tbody>
+            </tgroup>
+        </table>
+        
+    </refbody>
+</reference>

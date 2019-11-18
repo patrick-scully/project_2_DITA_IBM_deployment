@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="deploying_IBM_StoredIQ_on_Microsoft_Hyper-V">
     <title>Deploying IBM StoredIQ on Microsoft Hyper-V</title>
-    <!-- fix short description -->
+   
     <shortdesc>As an alternative to installing on an ESX server, the IBM StoredIQ gateway, data server, and application
         stack can be installed on Microsoft Hyper-V. This option is not supported for the Elasticsearch virtual
         appliance.</shortdesc>
@@ -24,36 +24,36 @@
             <p>
                 Microsoft Hyper-V does not support OVAs and OVFs. The virtual machine needs to be built manually.
             </p>
-            <p>
-                Consider the following instructions a sample procedure. The instructions might differ depending on the
-                version of the third-party software.
-                
-            </p>
+            <p>Consider the following instructions a sample procedure. The instructions might differ
+                depending on the version of the third-party software. </p>
             <p>Complete these steps for the gateway, the data server, and the AppStack:
             </p>
 </context>
         <steps>
             <step>
-                <cmd>Extract the vmdk ³le from the OVA.</cmd>
+                <cmd>Extract the vmdk file from the OVA.</cmd>
                 <substeps>
                     <substep>
-                        <cmd> Download the OVA.</cmd>
+                        <cmd>Download the OVA.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Extract the contents of the OVA by using 7-zip for Windows or tar for the Linux operating system</cmd>
+                        <cmd>Extract the contents of the OVA by using 7-zip for Windows or tar for
+                            the Linux operating system</cmd>
                     </substep>
                     <substep>
-                        <cmd>Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for Linux.</cmd>
+                        <cmd>Decompress the vmdk.gz archive by using 7-zip for Windows or gunzip for
+                            Linux.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Delete everything except the vmdk ³le when the OVA extraction is complete.</cmd>
+                        <cmd>Delete everything except the vmdk ³le when the OVA extraction is
+                            complete.</cmd>
                     </substep>
                 </substeps>
             </step>
             <step>
-                <cmd>Convert the VMWare .vmdk ³le to a Microsoft Hyper-V .vhdx files. 
-                  For instructions about converting .vmdk files to .vhdx files, see the following
-                        links: </cmd>
+                <cmd>Convert the VMWare .vmdk file to a Microsoft Hyper-V .vhdx files. For
+                    instructions about converting .vmdk files to .vhdx files, see the following
+                    links: </cmd>
                 <tutorialinfo>
                     <sl>
                         <sli><xref
@@ -73,7 +73,7 @@
                 <cmd>Build a virtual machine.</cmd>
                 <substeps>
                     <substep>
-                        <cmd>Select <cmdname>New Virtual Machine &gt; Next</cmdname> from Hyper-V Manager</cmd>
+                        <cmd>Select <b>New Virtual Machine &gt; Next</b> from Hyper-V Manager</cmd>
                     </substep>
                 </substeps>
                 <substeps>
@@ -83,29 +83,29 @@
                 </substeps>
                 <substeps>
                     <substep>
-                        <cmd>Select <cmdname>Generation of the machine</cmdname> in the <b>Specify Generation</b> window.</cmd>
+                        <cmd>Select <b>Generation of the machine</b> in the <b>Specify Generation</b> window.</cmd>
                     </substep>
                 </substeps>
                 <substeps>
                     <substep>
-                        <cmd>Enter the startup memory in the <cmdname>Assign Memory </cmdname>window.</cmd>
+                        <cmd>Enter the startup memory in the <b>Assign Memory </b>window.</cmd>
                     </substep>
                 </substeps>
                 <substeps>
                     <substep>
-                        <cmd>Select the correct network in the <b>Configure Network</b> window and click <cmdname>Next</cmdname>.</cmd>
+                        <cmd>Select the correct network in the <b>Configure Network</b> window and click <b>Next</b>.</cmd>
                     </substep>
                 </substeps>
                 <substeps>
                     <substep>
-                        <cmd>Select <cmdname>Use an existing virtual hard disk</cmdname> in the <cmdname>Connect Virtual Hard Disk</cmdname> window. Search the disk
-                            location, select one of the primary disks, and then click <cmdname>Next</cmdname>.
+                        <cmd>Select <b>Use an existing virtual hard disk</b> in the <b>Connect Virtual Hard Disk</b> window. Search the disk
+                            location, select one of the primary disks, and then click <b>Next</b>.
                         </cmd>
                     </substep>
                 </substeps>
                 <substeps>
                     <substep>
-                        <cmd>Click <cmdname>Finish</cmdname>.</cmd>
+                        <cmd>Click <b>Finish</b>.</cmd>
                     </substep>
                 </substeps>
                 <substeps>
@@ -123,7 +123,7 @@
                     </substep>
              
                     <substep>
-                        <cmd> Select the settings for the virtual machine under <cmdname>Actions</cmdname>.</cmd>
+                        <cmd> Select the settings for the virtual machine under <b>Actions</b>.</cmd>
                     </substep>
                
                     <substep>
@@ -131,28 +131,28 @@
                     </substep>
              
                     <substep>
-                        <cmd>Select Hard Drive and virtual hard disk and click <cmdname>New</cmdname>.</cmd>
+                        <cmd>Select Hard Drive and virtual hard disk and click <b>New</b>.</cmd>
                     </substep>
              
                     <substep>
-                        <cmd>Click <cmdname>Next</cmdname> in the New Virtual Hard Disk wizard</cmd>
+                        <cmd>Click <b>Next</b> in the New Virtual Hard Disk wizard</cmd>
                     </substep>
                
                     <substep>
-                        <cmd>Select <cmdname>VHDX</cmdname> in Choose Disk Format and then click <cmdname>Next</cmdname>.</cmd>
+                        <cmd>Select <b>VHDX</b> in Choose Disk Format and then click <b>Next</b>.</cmd>
                     </substep>
             
                     <substep>
-                        <cmd>Select <cmdname>Dynamically expanding </cmdname>in Choose Disk Type and then click <cmdname>Next</cmdname>.</cmd>
+                        <cmd>Select <b>Dynamically expanding </b>in Choose Disk Type and then click <b>Next</b>.</cmd>
                     </substep>
               
                     <substep>
-                        <cmd>Enter a name for the disk in the <cmdname>Specify Name and Location</cmdname> window and the click <cmdname>Next</cmdname>.</cmd>
+                        <cmd>Enter a name for the disk in the <b>Specify Name and Location</b> window and the click <b>Next</b>.</cmd>
                     </substep>
                
                     <substep>
-                        <cmd>Select <cmdname>Create a new blank virtual hard disk</cmdname> and enter a size in the <b>Configure Disk</b> window and
-                            then click <cmdname>Finish</cmdname>.
+                        <cmd>Select <b>Create a new blank virtual hard disk</b> and enter a size in the <b>Configure Disk</b> window and
+                            then click <b>Finish</b>.
                         </cmd>
                     </substep>
                 
@@ -163,10 +163,10 @@
                            </step>
         </steps>
         
-        <postreq>
-            Complete the installation process by following the instructions in "Conguring IBM StoredIQ” on page 22.
-        </postreq>
-        <!-- create link to internal document -->
+        <postreq> Complete the installation process by following the instructions in <!-- 
+       conref-->"Conguring IBM
+            StoredIQ” on page 22. </postreq>
+        
         
     </taskbody>
 </task>

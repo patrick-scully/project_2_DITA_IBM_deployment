@@ -3,6 +3,7 @@
 <map>
     <title></title>
     <mapref href="guideImages.ditamap" format="ditamap"/>
+    <topicref href="topics/references/cover_page.dita"/>
     <topicref href="topics/concepts/about_this_publication.dita">
         <topicref href="topics/tasks/contacting_IBM_StoredIQ_customer_support.dita"/>
         <topicref href="topics/references/IBM_StoredIQ_product_library.dita"/>

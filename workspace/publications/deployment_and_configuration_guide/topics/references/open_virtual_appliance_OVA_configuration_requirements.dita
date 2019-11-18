@@ -2,9 +2,9 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="open_virtual_appliance_OVA_configuration_requirements">
     <title>Open Virtual Appliance (OVA) configuration requirements</title>
-    <shortdesc>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0 (all ³x pack levels) or
-        VMware ESXi 6.0 (all ³x pack levels) environments. You must have a virtual infrastructure that meets the
-        IBM StoredIQ hardware requirements.</shortdesc>
+    <shortdesc>IBM StoredIQ is deployed as virtual appliances and is supported in VMware ESXi 5.0
+        (all fix pack levels) or VMware ESXi 6.0 (all fix pack levels) environments. You must have a
+        virtual infrastructure that meets the IBM StoredIQ hardware requirements.</shortdesc>
     
     <refbody> 
         
@@ -69,29 +69,31 @@
                             <howtoavoid/>
                         </messagepanel>
                     </hazardstatement></li>
-                        <li><p> Data disk (vmdisk2, SCSI 0:1): </p><p>Default is 2 TB This virtual disk can be
+                        <li><p> Data disk (vmdisk2, SCSI 0:1): Default is 2 TB</p><p> This virtual disk can be
                             resized according to expectations on the amount of harvest data to be
                             stored. For purposes of estimation, the index storage requirement for
                             metadata is about 30 GB per TB of managed source data. Full-text
                             indexing requires an extra 170 GB per TB. Therefore, the default data
                             disk size is targeted for managing 10 TB of source information.</p></li>
-                        <li><p>Swap disk (vmdisk3, SCSI 0:2):</p>Default is 40 GB When under load,
+                        <li><p>Swap disk (vmdisk3, SCSI 0:2): Default is 40 GB</p> When under load,
                             the data server can use much RAM; therefore, having ample swap space is
-                            prudent. The minimum swap size is equal to the amount of RAM con³gured
+                            prudent. The minimum swap size is equal to the amount of RAM configured
                             for the virtual machine. For best performance under load, place this
                             disk on the highest speed data store available to the host.</li>
                   
                     </ul>
                 </li>
             </ul>
-            <p>The general size limits for a data server are 150 million objects or 500 de³ned volumes, whichever
-                limit is reached ³rstN Assuming an average object size of 200 KB equals about 30 TB of managed
-                storage across 30 volumes of 5 million objects each, the index storage requirement for metadata on
-                ~30 TB of storage that contains uncompressed general office documents is ~330 GB (11 GB per TB).
-                Add 100 GB per TB of managed storage for full-text or snippet index. For example, to support 30 TB
-                of storage that is indexed for metadata, you need 8 TB indexed for full-text search and extracted text
-                (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of storage is required (metadata: 330
-                GB, full-text: 800 GB, snippet cache: 800 GB).</p>
+            <p>The general size limits for a data server are 150 million objects or 500 defined
+                volumes, whichever limit is reached first. Assuming an average object size of 200 KB
+                equals about 30 TB of managed storage across 30 volumes of 5 million objects each,
+                the index storage requirement for metadata on ~30 TB of storage that contains
+                uncompressed general office documents is ~330 GB (11 GB per TB). Add 100 GB per TB
+                of managed storage for full-text or snippet index. For example, to support 30 TB of
+                storage that is indexed for metadata, you need 8 TB indexed for full-text search and
+                extracted text (snippet cache) of 8 TB for auto-classification. A total of 1.9 TB of
+                storage is required (metadata: 330 GB, full-text: 800 GB, snippet cache: 800
+                GB).</p>
             <p>Data-server performance is impacted by the IOPS available from the storage subsystem. For each
                 data server under maximum workload, at least 650 IOPS generally delivers acceptable performance.
                 In the situations where there is a high load on the system, the IOPS that is used can reach up to 7000
@@ -138,12 +140,12 @@
                 </li>
                 
             </ul></p>
-            <p>The required memory depends on the index size that is handled by the data node. For a better
-                performance, consider increasing the memory. The total memory available to the node must be
-                distributed between the host operating system, the Elasticsearch java heap space, and the kernel ³le
-                system caches. For example, if the system has 32 GB memory, 2 GB must be allocated for the host
-                operating system, 15 GB for the java heap space, and the remaining 15 GB for the ³le system caches.
-            </p>
+            <p>The required memory depends on the index size that is handled by the data node. For a
+                better performance, consider increasing the memory. The total memory available to
+                the node must be distributed between the host operating system, the Elasticsearch
+                java heap space, and the kernel file system caches. For example, if the system has
+                32 GB memory, 2 GB must be allocated for the host operating system, 15 GB for the
+                java heap space, and the remaining 15 GB for the file system caches. </p>
             <p>The data disk (vmdisk2) can be resized according to expectations on the amount of harvest data to be
                 stored.
             </p>

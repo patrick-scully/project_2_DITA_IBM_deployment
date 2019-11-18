@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /C:\Users\patscully\Dropbox\Current Working Clients\Information Designs & Development\project_2_ps\workspace\publications\deployment_and_configuration_guide\temp\pdf\topics\references?><?workdir-uri file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/temp/pdf/topics/references/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Reference//EN?><?doctype-system reference.dtd?><reference xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" id="applications_of_IBM_StoredIQ" ditaarch:DITAArchVersion="1.3" domains="(topic reference) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic       reference/reference " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="reference:1;3:46">
+    <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:1;4:12">Applications of IBM StoredIQ
+    </title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="shortdesc:1;6:16">IBM StoredIQ provides interface applications that help fulfill its solution goals.</shortdesc>
+    <prolog class="- topic/prolog " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="prolog:1;7:13">
+        <metadata class="- topic/metadata " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="metadata:1;8:19">
+            <keywords class="- topic/keywords " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="keywords:1;8:42">
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:1;9:28">IBM StoredIQ
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:1;10:32">
+                        Data Workbench
+                    </index-see>
+                </indexterm>
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:2;14:28">IBM StoredIQ
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:3;16:32">
+                        IBM StoredIQ Data Server
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:4;20:32">
+                        IBM StoredIQ Administrator
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:5;24:32">
+                        IBM StoredIQ Data Workbench
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:6;28:32">
+                        IBM StoredIQ Insights
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:7;32:32">
+                        IBM StoredIQ Policy Manager
+                    </indexterm>
+                    
+                    <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:8;36:32">
+                        IBM StoredIQ Desktop Data Collector
+                    </indexterm>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:9;41:28">
+                    Harvesting
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:2;43:32">
+                        Indexing
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:10;48:28">
+                     Indexing
+               </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:11;52:28">
+                    Reports
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:3;54:32">
+                        Query Analysis Report
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:12;59:28">
+                        Query Analysis Report
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:13;63:28">
+                    Categorization
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:4;65:32">
+                        Auto-classification
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:14;70:28">
+                        Auto-classification
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:15;74:28">
+                    Cartridges
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:5;76:32">
+                        Analysis logic
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:16;81:28">
+                        Analysis logic
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:17;85:28">
+                    PostgreSQL
+                    <index-see class="+ topic/index-base indexing-d/index-see " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="index-see:6;87:32">
+                        Lucene
+                    </index-see>
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:18;92:28">
+                        Lucene
+                </indexterm>
+                
+                
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:19;98:28">
+                    Elasticsearch
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:20;102:28">
+                    Connector API SDK
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:21;106:28">
+                    infosets
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:22;110:28">
+                    e-discovery
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:23;114:28">
+                    IBM Content Classification
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:24;118:28">
+                    Mule script
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:25;122:28">
+                    Information Governance Catalog
+                </indexterm>
+                
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/index.dita" xtrc="indexterm:26;126:28">
+                    Interface
+                </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody class="- topic/body        reference/refbody " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="refbody:1;14:14">
+        
+       <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:1;16:17">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:2;17:20">IBM StoredIQ Data Server</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:1;18:16">IBM StoredIQ Data Server user interface provides access to data server functionality.
+                It allows administrators to view the dashboard and see the status of the jobs and
+                system details. Administrators can manage information about servers and conduct
+                various configurations on the system and application settings.</p>
+            <image placement="inline" class="- topic/image " href="../../resources/images/IBM_StoredIQ_Data_Server.jpg" width="760" format="jpg" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/image_usage.dita" xtrc="image:2;17:136"/>
+ </section>
+       
+      
+      
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:2;27:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:3;28:20">IBM StoredIQ Administrator</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:2;29:16">IBM StoredIQ Administrator helps you manage global assets common to the distributed
+                infrastructure behind IBM StoredIQ applications.</p>
+            <image placement="inline" class="- topic/image " href="../../resources/images/IBM_StoredIQ_Administrator.jpg" width="760" format="jpg" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/image_usage.dita" xtrc="image:1;12:141"/>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:3;32:16">IBM StoredIQ Administrator provides at-a-glance understanding of the different issues
+                that can crop up in the IBM StoredIQ environment. These views are unique to the IBM
+                StoredIQ Administrator application as they provide an overview of how the system is
+                running. They allow access to various pieces of information that are being shared
+                across applications or allow for the management of resources in a centralized
+                manner.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:4;38:16">The administrator is the person responsible for managing the IBM StoredIQ. This
+                individual has strong understanding of data sources, indexes, data servers, jobs,
+                infosets, and actions. This list provides an overview as to how IBM StoredIQ
+                Administrator works: </p>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="ul:1;42:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:1;43:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:5;44:24"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:1;44:27">Viewing data servers and volumes: </b>Using IBM StoredIQ Administrator,
+                        the Administrator can identify what data servers are deployed, their
+                        location, what data is being managed, and the status of each data server in
+                        the system. Volume management is a central component of IBM StoredIQ. IBM
+                        StoredIQ Administrator also allows the Administrator to see what volumes are
+                        currently under management, which data server is responsible for that
+                        volume, the state of the volume after indexing, and the amount and size of
+                        information that is contained by each volume. Administrators can also add
+                        volumes to and delete volumes from data servers through this interface.</p>
+                    <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:6;53:24">If IBM StoredIQ is con³gured for integration with Information Governance
+                        Catalog, the Administrator can also manage which volumes are published to
+                        the governance catalog.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:2;57:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:2;57:24">Scheduling harvests: </b>Harvesting, which can also be referred to as
+                    indexing, is the process or task by which IBM StoredIQ examines and classifies
+                    data in your network. Using IBM StoredIQ Administrator, harvests can be
+                    scheduled, edited, and deleted.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:3;61:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:3;61:24">Creating system infosets: </b>System infosets that use only speci³c indexed
+                    volumes can be created and managed within IBM StoredIQ Administrator. Although
+                    infosets are a core component of IBM StoredIQ Data Workbench, system infosets
+                    are created as a shortcut for users in IBM StoredIQ Administrator.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:4;65:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:4;65:24">Managing users:</b> The user management area allows administrators to create
+                    users and manage users' access to the various IBM StoredIQ applications</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:5;67:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:5;67:24">Configuring and managing actions: </b>An action is any process that is taken
+                    upon the data that is represented by the indexes. Actions are run by data
+                    servers on indexed data objects. Any errors or warnings that are generated as a
+                    result of an action are recorded as exceptions in IBM StoredIQ Data Workbench.
+                        <note class="- topic/note " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="note:1;71:31">Actions can be created within IBM StoredIQ Administrator and then made
+                        available to other IBM StoredIQ applications such as IBM StoredIQ Data
+                        Workbench.</note></li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:6;74:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:6;74:24">Managing target sets:</b>Provides an interface that allows the user to set
+                    the wanted targets for specific actions that require a destination volume for
+                    their actions.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:7;77:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:7;77:24">Reports:</b> IBM StoredIQ Administrator provides a number of built-in
+                    reports, such as summaries of data objects in the system, storage use, and the
+                    number of identical documents in the system. You can create custom reports,
+                    including Query Analysis Reports for e-discovery purposes, and automatically
+                    email report notifictions to administrators and other interested parties.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:8;82:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:8;82:24">Auto-classification:</b> Automated document categorization, what <apiname class="+ topic/keyword pr-d/apiname " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="apiname:1;82:98">IBM
+                        StoredIQ</apiname> refers to as auto-classification models, integrates the
+                    IBM® Content Classification's classification model into the <apiname class="+ topic/keyword pr-d/apiname " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="apiname:2;84:90">IBM
+                        StoredIQ</apiname> infoset-generation process. Data Experts can use IBM
+                    Content Classification to train a classification model, which is then registered
+                    with IBM StoredIQ Administrator. The registered classification model can be
+                    applied to an existing infoset in IBM StoredIQ Data Workbench to generate new
+                    metadata for the objects in the infoset. Metadata can be used in rule-based
+                    filters to create new infosets</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:9;91:21">
+                    <b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:9;92:24">Cartridges:</b> Cartridges are compressed ³les that contain analysis logic.
+                    When you add a cartridge to IBM StoredIQ AppStack, it can detect new data in
+                    documents during indexing and make these new insights searchable. For example, a
+                    sensitive pattern cartridge can enable IBM StoredIQ to detect passport numbers,
+                    phone numbers, and other IDs. <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:7;96:54"> To apply the analysis logic contained in the
+                        cartridge, you must run a Step-up Analytics action that uses the cartridge
+                        on an infoset. IBM StoredIQ examines all documents in the infoset, applies
+                        the analytics, and then stores the analysis results in the IBM StoredIQ
+                        index</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:10;102:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:10;102:24">Managing concepts:</b> Provides the ability to relate business concepts to
+                    indexed data.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:11;104:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:11;104:24">Managing Mule scripts:</b> Helps you to create Mule scripts and upload script
+                    packages. These Mule scripts are used by IBM StoredIQ Policy Manager to create
+                    policies using the automation workflow.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:12;107:21"><p id="DataServer_Classic:" class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:8;107:49"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:12;107:52"> DataServer - Classic:</b> Data servers can be categorized in two types:
+                    DataServer - Classic and DataServer - Distributed. DataServer - Classic refers
+                    to the regular data servers. It uses either the current PostgreSQL or Lucene
+                    index as an index.</p> </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:13;111:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:13;111:24">DataServer - Distributed:</b> The distributed data server uses an
+                    Elasticsearch cluster instead of an embedded Postgres database. It increases the
+                    scalability and flexibility of the IBM StoredIQ deployment in a way that it can
+                    manage much larger amounts of data. Without adding more data servers, data that
+                    is managed by the IBM StoredIQ deployment can be increased by adding new nodes
+                    to the Elasticsearch cluster. Search queries perform better on DataServer -
+                    Distributed.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:14;118:21"><b class="+ topic/ph hi-d/b " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="b:14;118:24">Connector API SDK:</b> A connector is a software component of IBM StoredIQ
+                    that is used to connect to a data source such as a network ³le system and access
+                    its data. Using IBM StoredIQ Connector API SDK, developers of other companies
+                    can develop connectors to new data sources outside the IBM StoredIQ development
+                    environment. These connectors can be integrated with a live IBM StoredIQ
+                    application to index, search, manage, and analyze data on the data source.</li>
+            </ul>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:3;126:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:4;127:20">IBM StoredIQ Data Workbench </title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:9;128:16">Big data is a pervasive problem, not a one-time occurrence. It is easy for most
+                companies to realize that big data is problematic, but it is hard to identify what
+                problems they have. Big data is all about the unknown, but the unknown cannot be off
+                limits. IBM StoredIQ Data Workbench can help you learn about your data, make
+                educated decisions with your most valuable asset, and turn your company's most
+                dangerous risk into its most valuable asset.</p>
+            <image placement="inline" class="- topic/image " href="../../resources/images/IBM_StoredIQ_Data_Workbench.jpg" width="760" format="jpg" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/image_usage.dita" xtrc="image:3;22:142"/>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:10;135:16">IBM StoredIQ Data Workbench is a data visualization and management tool that helps
+                you to actively manage your company's data. It helps you to determine how much data
+                you have, where it is, who owns it, and when it was last used. When you have a clear
+                understanding of your company's data landscape, IBM StoredIQ Data Workbench helps
+                you take control of data. You can make informed decisions about your data and act on
+                that knowledge by copying, copying to retention, or conducting a discovery export. </p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:11;141:16">Here are just some examples of how you can use IBM StoredIQ Data Workbench.</p>
+            <ul class="- topic/ul " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="ul:2;142:17">
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:15;143:21">You need to find all company email that is sent from or received by Eileen
+                    Sideways (esideways@thecompany.com). You can use IBM StoredIQ Data Workbench to
+                    find all email and then copy that data to a predefined repository. You can also
+                    use IBM StoredIQ Data Workbench to find all of the esideways@thecompany.com
+                    email that occurred between specific dates and then make that email available
+                    for review</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:16;149:21">As an administrator, you want to rid your networks and storage of unused data.
+                    You can use IBM StoredIQ Data Workbench to find all files that were not modi³ed
+                    in more than five years.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:17;152:21">You want to find all image ³les that are created in 2007. Not only can IBM
+                    StoredIQ Data Workbench find all image files that were created in 2007. It also
+                    shows how much space they occupy on your network.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:18;155:21">A user needs to understand how data about Windows is being retained. Using IBM
+                    StoredIQ Data Workbench, you can provide that user with a visual overview of the
+                    number of objects that are retained and a breakdown of files per data source.
+                    Additionally, you can apply overlays to show the user if those files contain
+                    forbidden information such as credit-card numbers or Social Security
+                    numbers.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="li:19;161:21">If IBM StoredIQ is configured accordingly, you can select the infosets and
+                    filters that are published to the governance catalog for uni³ed governance of
+                    structured and unstructured information. When integrating with Information
+                    Governance Catalog, you can also analyze and classify the data governed by IBM
+                    StoredIQ based on the data classes that are synchronized from the governance
+                    catalog.</li>
+            </ul>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:4;169:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:5;170:20">IBM StoredIQ Insights</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:12;171:16">IBM StoredIQ Insights provides dynamic and interactive filtering for your data with
+                easy access to all metadata and instant plain-text preview of document content for
+                full-text indexed volumes.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:13;174:16"> Faceted search lets you drill down to re³ne your search results as needed. In
+                addition, you can apply any valid IBM StoredIQ filter query. Tags let you categorize
+                the data for easier management. Visual representations of search results help you
+                gain further insights into your data. Several chart types let you look at and
+                explore data from different perspectives, thus helping you identify patterns and
+                relationships very quickly.</p>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:14;180:16"> With IBM StoredIQ Insights, you can search data that is managed and indexed by a
+                data server of the type DataServer - Distributed. In mixed deployments that have
+                classic and distributed data servers, only the content from distributed data servers
+                will be searchable.</p>
+            <image placement="inline" class="- topic/image " href="../../resources/images/IBM_StoredIQ_Insights.jpg" width="760" format="jpg" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/image_usage.dita" xtrc="image:4;27:130"/>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:5;186:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:6;187:20">IBM StoredIQ Policy Manager </title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:15;188:16">IBM StoredIQ Policy Manager allows users to run mature policies and processes at
+                scale across a wider range of data.</p>
+            <image placement="inline" class="- topic/image " href="../../resources/images/IBM_StoredIQ_Policy_Manager.jpg" width="760" format="jpg" xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/image_usage.dita" xtrc="image:5;32:142"/>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:16;191:16">The users can de³ne and run systemwide policies, focusing on the execution of the
+                process rather than understanding or reviewing affected data objects. Additionally,
+                with reports of IBM StoredIQ Policy Manager, you can record what actions were
+                conducted, when they were conducted, and what data was affected by the policy's
+                execution.</p>
+        </section>
+        <section class="- topic/section " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="section:6;197:18">
+            <title class="- topic/title " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="title:7;198:20">IBM StoredIQ Desktop Data Collector</title>
+            <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:17;199:16">IBM StoredIQ Desktop Data Collector (also referred to as desktop client indexes desktops as volumes.
+                The volumes appear in IBM StoredIQ Data Server and in IBM StoredIQ Administrator, where they can be
+                used like any other data source.</p>
+               <p class="- topic/p " xtrf="file:/C:/Users/patscully/Dropbox/Current%20Working%20Clients/Information%20Designs%20&amp;%20Development/project_2_ps/workspace/publications/deployment_and_configuration_guide/topics/references/applications_of_IBM_StoredIQ.dita" xtrc="p:18;202:19"> The data server maintains an index using the information sent by the desktop client. After indexing,
+                desktops - even offline or unreachable ones - can be viewed, searched, or targeted for later policy action.</p>
+        </section>
+        
+    
+    </refbody>
+</reference>

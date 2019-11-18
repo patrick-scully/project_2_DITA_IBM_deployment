@@ -27,35 +27,43 @@
                     <li>One application server.</li>
                     <li>NFS is slightly faster than CIFS for metadata only, but assume CIFS/NFS even for this exercise.
                     </li>
-                    <li> Full-content processing of ³le (for example, .ZIP, .RAR, .GZ) and email archive (.PST, .NSF, .EMX)
-                        processing are slower as items must be extracted from the archives. If there is a signficant number of
-                        these files in the file system and they are not excluded from content processing, the full-content
-                        Planning for deployment 13
-                        processing rate can be too high. Until you have an initial index of the ³le system, you do not know how
-                        to weigh full-content processing of archives.</li>
+                    <li> Full-content processing of file (for example, .ZIP, .RAR, .GZ) and email
+                        archive (.PST, .NSF, .EMX) processing are slower as items must be extracted
+                        from the archives. If there is a signficant number of these files in the
+                        file system and they are not excluded from content processing, the
+                        full-content Planning for deployment 13 processing rate can be too high.
+                        Until you have an initial index of the file system, you do not know how to
+                        weigh full-content processing of archives.</li>
                     <li>An object/time metric is appropriate for metadata only NOT computing a hash, membership in the
                         National Institute of Standards and Technology (NIST) or enumerating objects that are contained in
                         archives. Converting it to a bytes/time metric is a function of the average object size and might vary
                         tremendously. An average object size of 250 KB was used for the metric that is provided earlier.</li>
-                    <li>A bytes/time metric is appropriate for metadata-only computing a hash and full-content processing.
-                        The object per second rate can vary tremendously depending on the object type and sizes encountered.
-                        For example, processing an email or ³le archive is much more expensive than a PDF document.</li>
-                    <li>Metadata-only not computing a hash, membership in the NIST list, or enumerating objects that are
-                        contained in archives is requesting only the file-attribute information from the NAS. Individual ³les are
-                        not opened and read. The processing rate is high, but that does not translate into a large amount of data
-                        that traverses a network between the NAS and data server. The bytes/time rate does not translate into
-                        bytes served by the NAS and sent over the network.</li>
-                    <li>Metadata-only computing a hash, membership in the NIST list, or enumerating objects that are
-                        contained in archives opens and reads the contents of each ³leN The content of all requested ³les
-                        traverses the network between the NAS and data server. The maximum load that the data server can
-                        place on a NAS is metadata-only processing. It requires all ³le content to be read to compute a hash or
-                        enumerate objects that are contained in archives. The bytes/time rate translates into bytes served up
-                        by the NAS and network trafficc that must be considered.</li>
-                    <li>Full-content processing opens and reads the contents of each ³le to extract all text. The content of all
-                        requested ³les traverses the network between the NAS and data server. The processing time to
-                        enumerate archives, extract text, index words, and extract entities on the data server reduces the rate
-                        that data is requested from a NAS compared to metadata-only with full hash. The bytes/time rate
-                        translates into bytes served up by the NAS and network traffic that must be considered.</li>
+                    <li>A bytes/time metric is appropriate for metadata-only computing a hash and
+                        full-content processing. The object per second rate can vary tremendously
+                        depending on the object type and sizes encountered. For example, processing
+                        an email or file archive is much more expensive than a PDF document.</li>
+                    <li>Metadata-only not computing a hash, membership in the NIST list, or
+                        enumerating objects that are contained in archives is requesting only the
+                        file-attribute information from the NAS. Individual files are not opened and
+                        read. The processing rate is high, but that does not translate into a large
+                        amount of data that traverses a network between the NAS and data server. The
+                        bytes/time rate does not translate into bytes served by the NAS and sent
+                        over the network.</li>
+                    <li>Metadata-only computing a hash, membership in the NIST list, or enumerating
+                        objects that are contained in archives opens and reads the contents of each
+                        file. The content of all requested files traverses the network between the
+                        NAS and data server. The maximum load that the data server can place on a
+                        NAS is metadata-only processing. It requires all file content to be read to
+                        compute a hash or enumerate objects that are contained in archives. The
+                        bytes/time rate translates into bytes served up by the NAS and network
+                        trafficc that must be considered.</li>
+                    <li>Full-content processing opens and reads the contents of each file to extract
+                        all text. The content of all requested files traverses the network between
+                        the NAS and data server. The processing time to enumerate archives, extract
+                        text, index words, and extract entities on the data server reduces the rate
+                        that data is requested from a NAS compared to metadata-only with full hash.
+                        The bytes/time rate translates into bytes served up by the NAS and network
+                        traffic that must be considered.</li>
                     <li>The interrogator process count on the data server for "metadata only not reading all content indexing" is
                         set to eight for optimal performance.</li>
                     <li>The interrogator process count for all other processing that involves reading all content default setting
@@ -76,10 +84,10 @@
             </p>
         </section>
         <section>
-            <title></title>
+           
             <p><b>VMware requirements</b></p>
             <ul>
-                <li>VMware vSphere v5.0 and ³x packs or v6.0 and fixx packs.</li>
+                <li>VMware vSphere v5.0 and fix packs or v6.0 and fix packs.</li>
                 <li>VMware ESXi v5.0 and fix packs, v6.0 and fix packs, or v6.5 and fix packs</li>
                 <li>VMware virtual machine hardware version 8.0 or later. For more information, see the <xref href="https://www.vmware.com/support/pubs/" format="html"  scope="external">VMware product
                     documentation.</xref></li>
