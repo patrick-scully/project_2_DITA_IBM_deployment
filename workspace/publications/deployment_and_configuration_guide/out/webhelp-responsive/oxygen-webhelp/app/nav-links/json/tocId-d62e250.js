@@ -1,1 +1,0 @@
-define({"topics" : [{"title":"Gateway","href":"topics\/glossary\/deployment_glossary_8.html#Gateway","attributes": {"data-id":"Gateway",},"menu": {"hasChildren":false,},"tocID":"Gateway-d62e251","topics":[]}]});

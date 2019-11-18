@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
-<concept id="deployin_IBM_StoredIQ">
-    <title>Deploying IBM StoredIQ
-    </title>
-    <shortdesc>IBM StoredIQ is a virtual appliance that you deploy and con³gure in a VMWare virtual host environment.</shortdesc>
-
-</concept>
